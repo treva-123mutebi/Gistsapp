@@ -48,6 +48,7 @@
 		AC8653802A486C3A00916CD4 /* GistsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GistsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC8653842A486C3A00916CD4 /* GistsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GistsUITests.swift; sourceTree = "<group>"; };
 		AC8653862A486C3A00916CD4 /* GistsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GistsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AC8653932A48704A00916CD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +99,7 @@
 		AC8653632A486C3700916CD4 /* Gists */ = {
 			isa = PBXGroup;
 			children = (
+				AC8653932A48704A00916CD4 /* Info.plist */,
 				AC8653642A486C3700916CD4 /* GistsApp.swift */,
 				AC8653662A486C3700916CD4 /* ContentView.swift */,
 				AC8653682A486C3A00916CD4 /* Assets.xcassets */,
@@ -428,6 +430,7 @@
 				DEVELOPMENT_TEAM = 6VC7TTTLRL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Gists/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -457,6 +460,7 @@
 				DEVELOPMENT_TEAM = 6VC7TTTLRL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Gists/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
