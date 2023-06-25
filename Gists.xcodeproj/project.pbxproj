@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AC8653652A486C3700916CD4 /* GistsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8653642A486C3700916CD4 /* GistsApp.swift */; };
-		AC8653672A486C3700916CD4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8653662A486C3700916CD4 /* ContentView.swift */; };
+		AC8653672A486C3700916CD4 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8653662A486C3700916CD4 /* MainView.swift */; };
 		AC8653692A486C3A00916CD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC8653682A486C3A00916CD4 /* Assets.xcassets */; };
 		AC86536C2A486C3A00916CD4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC86536B2A486C3A00916CD4 /* Preview Assets.xcassets */; };
 		AC86536E2A486C3A00916CD4 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC86536D2A486C3A00916CD4 /* Persistence.swift */; };
@@ -20,6 +20,21 @@
 		AC86539A2A4889C000916CD4 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = AC8653992A4889C000916CD4 /* FirebaseFirestore */; };
 		AC86539C2A4889C000916CD4 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = AC86539B2A4889C000916CD4 /* FirebaseFirestoreSwift */; };
 		AC86539E2A488CF000916CD4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AC86539D2A488CEF00916CD4 /* GoogleService-Info.plist */; };
+		AC8653A52A48914200916CD4 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8653A42A48914200916CD4 /* ProfileView.swift */; };
+		AC8653A72A48915B00916CD4 /* To-do-ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8653A62A48915B00916CD4 /* To-do-ListView.swift */; };
+		AC8653A92A48919B00916CD4 /* NewItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8653A82A48919B00916CD4 /* NewItemView.swift */; };
+		AC8653AB2A4891C800916CD4 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8653AA2A4891C800916CD4 /* LoginView.swift */; };
+		AC8653AD2A4891DC00916CD4 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8653AC2A4891DC00916CD4 /* RegistrationView.swift */; };
+		AC8653AF2A48922400916CD4 /* TodoListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8653AE2A48922400916CD4 /* TodoListItemView.swift */; };
+		AC8653B22A48952600916CD4 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8653B12A48952600916CD4 /* User.swift */; };
+		AC8653B42A48953600916CD4 /* TodoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8653B32A48953600916CD4 /* TodoList.swift */; };
+		AC8653B62A48961400916CD4 /* MainViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8653B52A48961400916CD4 /* MainViewViewModel.swift */; };
+		AC8653B82A48962C00916CD4 /* ProfileViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8653B72A48962C00916CD4 /* ProfileViewViewModel.swift */; };
+		AC8653BA2A48964600916CD4 /* To-do-ListViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8653B92A48964600916CD4 /* To-do-ListViewViewModel.swift */; };
+		AC8653BC2A48966200916CD4 /* NewItemViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8653BB2A48966200916CD4 /* NewItemViewViewModel.swift */; };
+		AC8653BE2A48967300916CD4 /* LoginViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8653BD2A48967300916CD4 /* LoginViewViewModel.swift */; };
+		AC8653C02A4896A000916CD4 /* RegisterViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8653BF2A4896A000916CD4 /* RegisterViewViewModel.swift */; };
+		AC8653C22A4896BD00916CD4 /* TodoListItemViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8653C12A4896BD00916CD4 /* TodoListItemViewViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,7 +57,7 @@
 /* Begin PBXFileReference section */
 		AC8653612A486C3700916CD4 /* Gists.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gists.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC8653642A486C3700916CD4 /* GistsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GistsApp.swift; sourceTree = "<group>"; };
-		AC8653662A486C3700916CD4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AC8653662A486C3700916CD4 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		AC8653682A486C3A00916CD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC86536B2A486C3A00916CD4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AC86536D2A486C3A00916CD4 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -54,6 +69,21 @@
 		AC8653862A486C3A00916CD4 /* GistsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GistsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		AC8653932A48704A00916CD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		AC86539D2A488CEF00916CD4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AC8653A42A48914200916CD4 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		AC8653A62A48915B00916CD4 /* To-do-ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "To-do-ListView.swift"; sourceTree = "<group>"; };
+		AC8653A82A48919B00916CD4 /* NewItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewItemView.swift; sourceTree = "<group>"; };
+		AC8653AA2A4891C800916CD4 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		AC8653AC2A4891DC00916CD4 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		AC8653AE2A48922400916CD4 /* TodoListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListItemView.swift; sourceTree = "<group>"; };
+		AC8653B12A48952600916CD4 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		AC8653B32A48953600916CD4 /* TodoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoList.swift; sourceTree = "<group>"; };
+		AC8653B52A48961400916CD4 /* MainViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewViewModel.swift; sourceTree = "<group>"; };
+		AC8653B72A48962C00916CD4 /* ProfileViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewViewModel.swift; sourceTree = "<group>"; };
+		AC8653B92A48964600916CD4 /* To-do-ListViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "To-do-ListViewViewModel.swift"; sourceTree = "<group>"; };
+		AC8653BB2A48966200916CD4 /* NewItemViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewItemViewViewModel.swift; sourceTree = "<group>"; };
+		AC8653BD2A48967300916CD4 /* LoginViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewViewModel.swift; sourceTree = "<group>"; };
+		AC8653BF2A4896A000916CD4 /* RegisterViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewViewModel.swift; sourceTree = "<group>"; };
+		AC8653C12A4896BD00916CD4 /* TodoListItemViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListItemViewViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,11 +137,12 @@
 		AC8653632A486C3700916CD4 /* Gists */ = {
 			isa = PBXGroup;
 			children = (
-				AC86539D2A488CEF00916CD4 /* GoogleService-Info.plist */,
+				AC8653B02A48930500916CD4 /* Views */,
+				AC8653A32A488F0100916CD4 /* Models */,
+				AC8653A22A488ED700916CD4 /* ViewModel */,
+				AC8653A12A488EBB00916CD4 /* View */,
+				AC8653A02A488EB400916CD4 /* Other */,
 				AC8653932A48704A00916CD4 /* Info.plist */,
-				AC8653642A486C3700916CD4 /* GistsApp.swift */,
-				AC8653662A486C3700916CD4 /* ContentView.swift */,
-				AC8653682A486C3A00916CD4 /* Assets.xcassets */,
 				AC86536D2A486C3A00916CD4 /* Persistence.swift */,
 				AC86536F2A486C3A00916CD4 /* Gists.xcdatamodeld */,
 				AC86536A2A486C3A00916CD4 /* Preview Content */,
@@ -142,6 +173,60 @@
 				AC8653862A486C3A00916CD4 /* GistsUITestsLaunchTests.swift */,
 			);
 			path = GistsUITests;
+			sourceTree = "<group>";
+		};
+		AC8653A02A488EB400916CD4 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				AC8653682A486C3A00916CD4 /* Assets.xcassets */,
+				AC86539D2A488CEF00916CD4 /* GoogleService-Info.plist */,
+				AC8653642A486C3700916CD4 /* GistsApp.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		AC8653A12A488EBB00916CD4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AC8653A22A488ED700916CD4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				AC8653B52A48961400916CD4 /* MainViewViewModel.swift */,
+				AC8653B72A48962C00916CD4 /* ProfileViewViewModel.swift */,
+				AC8653B92A48964600916CD4 /* To-do-ListViewViewModel.swift */,
+				AC8653BB2A48966200916CD4 /* NewItemViewViewModel.swift */,
+				AC8653BD2A48967300916CD4 /* LoginViewViewModel.swift */,
+				AC8653BF2A4896A000916CD4 /* RegisterViewViewModel.swift */,
+				AC8653C12A4896BD00916CD4 /* TodoListItemViewViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		AC8653A32A488F0100916CD4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AC8653B12A48952600916CD4 /* User.swift */,
+				AC8653B32A48953600916CD4 /* TodoList.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AC8653B02A48930500916CD4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AC8653662A486C3700916CD4 /* MainView.swift */,
+				AC8653A42A48914200916CD4 /* ProfileView.swift */,
+				AC8653A62A48915B00916CD4 /* To-do-ListView.swift */,
+				AC8653A82A48919B00916CD4 /* NewItemView.swift */,
+				AC8653AA2A4891C800916CD4 /* LoginView.swift */,
+				AC8653AC2A4891DC00916CD4 /* RegistrationView.swift */,
+				AC8653AE2A48922400916CD4 /* TodoListItemView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -283,10 +368,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC8653BA2A48964600916CD4 /* To-do-ListViewViewModel.swift in Sources */,
 				AC8653712A486C3A00916CD4 /* Gists.xcdatamodeld in Sources */,
+				AC8653AF2A48922400916CD4 /* TodoListItemView.swift in Sources */,
 				AC86536E2A486C3A00916CD4 /* Persistence.swift in Sources */,
-				AC8653672A486C3700916CD4 /* ContentView.swift in Sources */,
+				AC8653B42A48953600916CD4 /* TodoList.swift in Sources */,
+				AC8653BC2A48966200916CD4 /* NewItemViewViewModel.swift in Sources */,
+				AC8653BE2A48967300916CD4 /* LoginViewViewModel.swift in Sources */,
+				AC8653A92A48919B00916CD4 /* NewItemView.swift in Sources */,
+				AC8653C02A4896A000916CD4 /* RegisterViewViewModel.swift in Sources */,
+				AC8653AD2A4891DC00916CD4 /* RegistrationView.swift in Sources */,
+				AC8653A52A48914200916CD4 /* ProfileView.swift in Sources */,
+				AC8653672A486C3700916CD4 /* MainView.swift in Sources */,
+				AC8653A72A48915B00916CD4 /* To-do-ListView.swift in Sources */,
+				AC8653C22A4896BD00916CD4 /* TodoListItemViewViewModel.swift in Sources */,
+				AC8653B62A48961400916CD4 /* MainViewViewModel.swift in Sources */,
+				AC8653AB2A4891C800916CD4 /* LoginView.swift in Sources */,
+				AC8653B82A48962C00916CD4 /* ProfileViewViewModel.swift in Sources */,
 				AC8653652A486C3700916CD4 /* GistsApp.swift in Sources */,
+				AC8653B22A48952600916CD4 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
